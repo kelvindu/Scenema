@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_detail"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kelvindu.learning.scenema.activity.DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+    <ImageView
+        android:id="@+id/poster_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="185dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/date_detail"
+        android:layout_toRightOf="@+id/poster_detail"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@id/poster_detail"
+        android:layout_marginStart="16dp"
+        android:fontFamily="helvetica"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/rating_detail"
+        android:fontFamily="helvetica"
+        android:textSize="20sp"
+        android:layout_below="@id/date_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/poster_detail"
+        android:layout_toEndOf="@id/poster_detail"
+        android:layout_alignLeft="@id/date_detail"
+        android:layout_alignStart="@id/date_detail"/>
+
+</RelativeLayout>

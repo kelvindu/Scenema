@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Scenema</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="more_info">more info...</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="mark_as_favorite">Mark as favorite</string>
+    <string name="watch_the_trailers">Watch the trailers:</string>
+    <string name="reviews">What people think about this show:</string>
+    <string name="no_review">Looks like no one has given a review yet for this movie -</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+</resources>
